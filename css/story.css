@@ -76,7 +76,8 @@ body {
 
 .stories-title {
     text-align: center;
-    margin-bottom: 70px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 #title-2 {
@@ -112,10 +113,6 @@ body {
 }
 
 /*ambs*/
-
-#ambs-section {
-    padding: 120px 0;
-}
 
 .ambs-wrap {
     display: grid;
@@ -163,9 +160,10 @@ body {
 }
 
 .ambs-text {
-    padding: 50px 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-bottom: 80px;
     font-size: 18px;
-
 }
 
 .ambs-text p{
@@ -269,3 +267,81 @@ table, th, td {
     background-color: #d893a3;
     color: #b30021;
 }
+
+
+.box1 {
+    width: 560px;
+    height: 480px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-right: 50px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 img {
+    width: 560px;
+    height: 480px;
+    border-radius: 15px;
+}
+
+.box2 {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+}
+
+.box-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Cormorant Garamond', serif;
+    color: goldenrod;
+}
+
+.row {
+    margin-bottom: 180px;
+}
+
+.mainbox {
+    margin-bottom: 50px;
+}
+
+.carousel-item {
+    width: 100%;
+}
+
+.carousel-item img {
+    height: 610px;
+    object-fit: cover;
+    filter: brightness(0.6)
+}
+
+.carousel-item video {
+    height: 610px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    object-fit: cover;
+}
+
+.tableclass {
+    padding-left: 390px;
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-item img {
+      max-width: 700px;
+      max-height: 300px;
+    }
+    .carousel-caption h1 {
+        font-size: 3rem;
+      }
+      .carousel-caption p {
+        font-size: 2rem;
+      }
+  }

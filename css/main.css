@@ -107,7 +107,7 @@ header ul li:hover > ol {
 
 .services-row {
     display: flex;
-    column-gap: 150px;
+    column-gap: 70px;
 }
 
 .service-card p {
@@ -210,3 +210,31 @@ header ul li:hover > ol {
 .contacts-footer {
     color: #828282;
 }
+
+.carousel-item {
+    width: 100%;
+}
+
+.carousel-item img {
+    height: 610px;
+    object-fit: cover;
+}
+
+.carousel-item video {
+    height: 610px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-item img {
+      max-width: 700px;
+      max-height: 300px;
+    }
+    .carousel-item video {
+      max-width: 700px;
+      max-height: 300px;
+    }
+  }
